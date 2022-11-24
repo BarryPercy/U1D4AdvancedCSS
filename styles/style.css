@@ -71,6 +71,7 @@ body {
     text-overflow: ellipsis;
     overflow: hidden;
   }
+  
   .button_ellipsis_right{
     position: absolute;
     right: 15px;
@@ -130,6 +131,17 @@ body {
 
   .top_buttons_position{
     transform: translatey(-100px);
+  }
+
+  .buttons_bottom:hover{
+    background-color: rgb(240, 240, 240);
+  }
+
+  .button_save:hover{
+    background-color: rgb(168, 3, 25);
+  }
+  .link_text{
+    width:100;
   }
 
 
