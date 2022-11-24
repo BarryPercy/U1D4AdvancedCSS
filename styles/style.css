@@ -98,7 +98,7 @@ body {
     top:22px;
     right: 0;
     bottom: 0;
-    left: 13px;
+    left: 14px;
     width: 0;
     height: 0;
   }
@@ -113,12 +113,11 @@ body {
     right: 0;
     bottom: 0;
     left: 5px;
-    width: 0;
-    height: 0;
   }
 
   .pinterest_card:hover .transition_from_bottom{
     transform: translateX(0px);
+    transition: transform 0.3s;
   }
 
   .bottom_buttons_position{
@@ -127,6 +126,7 @@ body {
 
   .pinterest_card:hover .transition_from_top{
     transform: translateX(0px);
+    transition: transform 0.3s;
   }
 
   .top_buttons_position{
