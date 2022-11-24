@@ -67,6 +67,7 @@ body {
     height: 45px;
     background-color: rgb(220, 218, 216);
     cursor: pointer;
+    white-space:nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
   }
@@ -140,7 +141,7 @@ body {
     background-color: rgb(168, 3, 25);
   }
   .link_text{
-    width:100;
+    width:50px;
   }
 
 
